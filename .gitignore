@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Compiled UI files
+*.ui.autosave
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Build output
+*.spec
+*.exe
