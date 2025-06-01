@@ -8,7 +8,7 @@ def test_ocr_grader():
     app = QApplication(sys.argv)  # 创建QApplication实例
     grader = OCRGrader()
       # 设置测试图片路径
-    test_image_path = "0d4ca9df9575fbe0787fbcffcaac965.jpg"  # 使用新创建的测试图片
+    test_image_path = "test_example.jpg"  # 使用新创建的测试图片
     
     # 确认图片文件存在
     if not os.path.exists(test_image_path):
