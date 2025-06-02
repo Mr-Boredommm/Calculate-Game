@@ -1,0 +1,114 @@
+{
+  "records": [
+    {
+      "total_questions": 10,
+      "attempted": 10,
+      "correct": 10,
+      "accuracy": 100.0,
+      "time_taken": 24.076854705810547,
+      "questions": [
+        {
+          "question": "7 + 10 = ?",
+          "answer": 17,
+          "user_answer": 17,
+          "is_correct": true
+        },
+        {
+          "question": "8 + 2 = ?",
+          "answer": 10,
+          "user_answer": 10,
+          "is_correct": true
+        },
+        {
+          "question": "10 + 1 = ?",
+          "answer": 11,
+          "user_answer": 11,
+          "is_correct": true
+        },
+        {
+          "question": "10 + 5 = ?",
+          "answer": 15,
+          "user_answer": 15,
+          "is_correct": true
+        },
+        {
+          "question": "4 + 7 = ?",
+          "answer": 11,
+          "user_answer": 11,
+          "is_correct": true
+        },
+        {
+          "question": "6 + 1 = ?",
+          "answer": 7,
+          "user_answer": 7,
+          "is_correct": true
+        },
+        {
+          "question": "5 + 5 = ?",
+          "answer": 10,
+          "user_answer": 10,
+          "is_correct": true
+        },
+        {
+          "question": "2 + 5 = ?",
+          "answer": 7,
+          "user_answer": 7,
+          "is_correct": true
+        },
+        {
+          "question": "1 + 9 = ?",
+          "answer": 10,
+          "user_answer": 10,
+          "is_correct": true
+        },
+        {
+          "question": "2 + 7 = ?",
+          "answer": 9,
+          "user_answer": 9,
+          "is_correct": true
+        }
+      ],
+      "timestamp": 1748772419.1533008
+    },
+    {
+      "total_questions": 5,
+      "attempted": 5,
+      "correct": 4,
+      "accuracy": 80.0,
+      "time_taken": 9.021983861923218,
+      "questions": [
+        {
+          "question": "32 + 2 = ?",
+          "answer": 34,
+          "user_answer": 34,
+          "is_correct": true
+        },
+        {
+          "question": "28 + 20 = ?",
+          "answer": 48,
+          "user_answer": 28,
+          "is_correct": false
+        },
+        {
+          "question": "45 - 35 = ?",
+          "answer": 10,
+          "user_answer": 10,
+          "is_correct": true
+        },
+        {
+          "question": "18 - 13 = ?",
+          "answer": 5,
+          "user_answer": 5,
+          "is_correct": true
+        },
+        {
+          "question": "44 - 37 = ?",
+          "answer": 7,
+          "user_answer": 7,
+          "is_correct": true
+        }
+      ],
+      "timestamp": 1748772556.3100855
+    }
+  ]
+}
