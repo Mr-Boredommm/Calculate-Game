@@ -1,0 +1,86 @@
+{
+    "111": {
+        "password": "211111",
+        "scores": {
+            "basic_practice": [],
+            "timed_practice": []
+        }
+    },
+    "111111": {
+        "password": "000000",
+        "scores": {
+            "basic_practice": [],
+            "timed_practice": []
+        }
+    },
+    "222222": {
+        "password": "222222",
+        "scores": {
+            "basic_practice": [
+                {
+                    "total": 5,
+                    "answered": 1,
+                    "correct": 0,
+                    "accuracy": 0.0
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 1,
+                    "correct": 0,
+                    "score": 0,
+                    "accuracy": 0.0
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 1,
+                    "correct": 0,
+                    "score": 0,
+                    "accuracy": 0.0
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 5,
+                    "correct": 2,
+                    "score": 20,
+                    "accuracy": 40.0
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 5,
+                    "correct": 3,
+                    "score": 30,
+                    "accuracy": 60.0
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 5,
+                    "correct": 4,
+                    "score": 40,
+                    "accuracy": 80.0
+                }
+            ],
+            "timed_practice": [
+                {
+                    "score": 60,
+                    "time": "00:22",
+                    "correct": 6
+                },
+                {
+                    "score": 90,
+                    "time": "00:29",
+                    "correct": 9
+                },
+                {
+                    "score": 90,
+                    "time": "00:22",
+                    "correct": 9
+                },
+                {
+                    "score": 90,
+                    "time": "00:27",
+                    "correct": 9
+                }
+            ]
+        }
+    }
+}
