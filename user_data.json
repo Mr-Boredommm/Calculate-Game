@@ -9,9 +9,44 @@
     "111111": {
         "password": "000000",
         "scores": {
-            "basic_practice": [],
-            "timed_practice": []
-        }
+            "basic_practice": [
+                {
+                    "score": 30,
+                    "correct": 3,
+                    "total": 3,
+                    "accuracy": 100.0,
+                    "time": "00:15",
+                    "timestamp": "2025-06-05 01:04:10"
+                }
+            ],
+            "timed_practice": [
+                {
+                    "score": 90,
+                    "time": "00:32",
+                    "correct": 9
+                }
+            ]
+        },
+        "handwriting_records": [
+            {
+                "timestamp": "2025-06-05 01:05:10",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            }
+        ],
+        "ai_conversations": [
+            {
+                "timestamp": "2025-06-05 01:05:59",
+                "question": "什么是分式的加减法？",
+                "answer": "**分式的加减法**是指对两个或多个分数进行加法或减法运算。关键在于**统一分母**（即“通分”），然后对分子进行加减。以下是详细步骤和例子：\n\n---\n\n### **1. 同分母分式的加减法**  \n**规则**：分母相同，直接加减分子，分母不变。  \n**例子**：  \n\\[ \\frac{3}{5} + \\frac{1}{5} = \\frac{3+1}{5} = \\frac{4}{5} \\]  \n\\[ \\frac{7}{8} - \\frac{2}{8} = \\frac{7-2}{8} = \\frac{5}{8} \\]  \n\n---\n\n### **2. 异分母分式的加减法**  \n**步骤**：  \n1. **找公分母**：分母不同时，先找到它们的最小公倍数（LCM）作为公分母。  \n2. **通分**：将每个分式的分子和分母同时乘以一个数，使分母变为公分母。  \n3. **加减分子**：保持分母不变，对分子进行加减。  \n4. **约分**（如果需要）：化简结果。  \n\n**例子**：  \n计算 \\( \\frac{1}{3} + \\frac{1}{6} \\)  \n1. 公分母：3和6的最小公倍数是6。  \n2. 通分：\\( \\frac{1}{3} = \\frac{1×2}{3×2} = \\frac{2}{6} \\)，\\( \\frac{1}{6} \\) 不变。  \n3. 相加：\\( \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} \\)。  \n4. 约分：\\( \\frac{3}{6} = \\frac{1}{2} \\)。  \n\n---\n\n### **3. 小技巧**  \n- **找最小公分母**：分解分母的质因数，取所有质因数的最高次幂相乘。  \n  - 例如：分母4（\\(2^2\\)）和6（\\(2×3\\)）的最小公分母是 \\(2^2×3=12\\)。  \n- **检查符号**：减法时注意分子的正负号。  \n\n**试试看**：  \n计算 \\( \\frac{2}{9} - \\frac{1}{6} \\)  \n（答案：先通分为 \\( \\frac{4}{18} - \\frac{3}{18} = \\frac{1}{18} \\)）\n\n---\n\n**总结**：分式加减就像“统一单位”后合并。先通分，再计算分子，最后化简！遇到问题时，可以多练习几个例子巩固哦~",
+                "problem_type": "加法运算",
+                "difficulty": "中等"
+            }
+        ]
     },
     "222222": {
         "password": "222222",
@@ -57,6 +92,72 @@
                     "correct": 4,
                     "score": 40,
                     "accuracy": 80.0
+                },
+                {
+                    "total_generated": 2,
+                    "total_answered": 1,
+                    "correct": 1,
+                    "score": 10,
+                    "accuracy": 100.0
+                },
+                {
+                    "total_generated": 3,
+                    "total_answered": 3,
+                    "correct": 3,
+                    "score": 30,
+                    "accuracy": 100.0,
+                    "time": "00:13",
+                    "difficulty": "medium",
+                    "operations": [
+                        "+",
+                        "-",
+                        "*",
+                        "/"
+                    ]
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 5,
+                    "correct": 5,
+                    "score": 50,
+                    "accuracy": 100.0,
+                    "time": "00:23",
+                    "difficulty": "hard",
+                    "operations": [
+                        "+"
+                    ]
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 5,
+                    "correct": 5,
+                    "score": 50,
+                    "accuracy": 100.0,
+                    "time": "00:23",
+                    "difficulty": "hard",
+                    "operations": [
+                        "+"
+                    ]
+                },
+                {
+                    "total_generated": 5,
+                    "total_answered": 5,
+                    "correct": 5,
+                    "score": 50,
+                    "accuracy": 100.0,
+                    "time": "00:26",
+                    "difficulty": "hard",
+                    "operations": [
+                        "/"
+                    ]
+                },
+                {
+                    "score": 0,
+                    "correct": 0,
+                    "total": 1,
+                    "accuracy": 0.0,
+                    "time": "00:09",
+                    "timestamp": "2025-06-05 00:14:22"
                 }
             ],
             "timed_practice": [
@@ -79,8 +180,175 @@
                     "score": 90,
                     "time": "00:27",
                     "correct": 9
+                },
+                {
+                    "score": 0,
+                    "time": "00:01",
+                    "correct": 0
+                },
+                {
+                    "score": 0,
+                    "time": "00:01",
+                    "correct": 0
+                },
+                {
+                    "score": 90,
+                    "time": "01:11",
+                    "correct": 9
+                },
+                {
+                    "score": 0,
+                    "time": "00:05",
+                    "correct": 0
+                },
+                {
+                    "score": 100,
+                    "time": "01:03",
+                    "correct": 10
+                },
+                {
+                    "score": 20,
+                    "time": "00:58",
+                    "correct": 2
                 }
             ]
-        }
+        },
+        "handwriting_records": [
+            {
+                "timestamp": "2025-06-04 23:22:02",
+                "image_path": "test_example.jpg",
+                "total_problems": 1,
+                "correct_answers": 0,
+                "accuracy": 0.0,
+                "detected_problems": "处理失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/test_example.jpg",
+                "grading_results": "批改失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/test_example.jpg"
+            },
+            {
+                "timestamp": "2025-06-04 23:22:25",
+                "image_path": "0d4ca9df9575fbe0787fbcffcaac965.jpg",
+                "total_problems": 1,
+                "correct_answers": 0,
+                "accuracy": 0.0,
+                "detected_problems": "处理失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/0d4ca9df9575fbe0787fbcffcaac965.jpg",
+                "grading_results": "批改失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/0d4ca9df9575fbe0787fbcffcaac965.jpg"
+            },
+            {
+                "timestamp": "2025-06-04 23:22:32",
+                "image_path": "preprocessed_image.jpg",
+                "total_problems": 1,
+                "correct_answers": 0,
+                "accuracy": 0.0,
+                "detected_problems": "处理失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/preprocessed_image.jpg",
+                "grading_results": "批改失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/preprocessed_image.jpg"
+            },
+            {
+                "timestamp": "2025-06-04 23:27:36",
+                "image_path": "test_example.jpg",
+                "total_problems": 0,
+                "correct_answers": 0,
+                "accuracy": 0,
+                "detected_problems": "处理失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/test_example.jpg",
+                "grading_results": "批改失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/test_example.jpg"
+            },
+            {
+                "timestamp": "2025-06-04 23:28:37",
+                "image_path": "preprocessed_image.jpg",
+                "total_problems": 0,
+                "correct_answers": 0,
+                "accuracy": 0,
+                "detected_problems": "处理失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/preprocessed_image.jpg",
+                "grading_results": "批改失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/preprocessed_image.jpg"
+            },
+            {
+                "timestamp": "2025-06-04 23:29:20",
+                "image_path": "preprocessed_image.jpg",
+                "total_problems": 0,
+                "correct_answers": 0,
+                "accuracy": 0,
+                "detected_problems": "处理失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/preprocessed_image.jpg",
+                "grading_results": "批改失败: 无法读取图片: D:/Desktop/课内/软件工程/Calculate-Game/preprocessed_image.jpg"
+            },
+            {
+                "timestamp": "2025-06-04 23:34:03",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-04 23:37:08",
+                "image_path": "0d4ca9df9575fbe0787fbcffcaac965.jpg",
+                "total_problems": 15,
+                "correct_answers": 15,
+                "accuracy": 100.0,
+                "detected_problems": "7 - 4 = ?\n2 / 2 = ?\n1 - 1 = ?\n2 - 188 = ?\n5 - 2 = ?\n3 * 27 = ?\n7 - 4 = ?\n2 / 2 = ?\n2 - 4 = ?\n4 / 2 = ?\n4 * 3 = ?\n12 * 0 = ?\n5 - 74 = ?\n4 * 8 = ?\n4 - 5 = ?",
+                "grading_results": "第1题: ✗ 错误，正确答案是 3\n第2题: ✗ 错误，正确答案是 1\n第3题: ✗ 错误，正确答案是 0\n第4题: ✗ 错误，正确答案是 -186\n第5题: ✗ 错误，正确答案是 3\n第6题: ✗ 错误，正确答案是 81\n第7题: ✗ 错误，正确答案是 3\n第8题: ✗ 错误，正确答案是 1\n第9题: ✗ 错误，正确答案是 -2\n第10题: ✗ 错误，正确答案是 2\n第11题: ✗ 错误，正确答案是 12\n第12题: ✗ 错误，正确答案是 0\n第13题: ✗ 错误，正确答案是 -69\n第14题: ✗ 错误，正确答案是 32\n第15题: 未作答，正确答案是 -1"
+            },
+            {
+                "timestamp": "2025-06-04 23:37:28",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-04 23:38:00",
+                "image_path": "preprocessed_image.jpg",
+                "total_problems": 0,
+                "correct_answers": 0,
+                "accuracy": 0,
+                "detected_problems": "未检测到题目",
+                "grading_results": "未检测到有效的数学题目"
+            },
+            {
+                "timestamp": "2025-06-04 23:38:08",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-05 00:13:45",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-05 01:02:16",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-05 01:08:53",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            }
+        ],
+        "ai_conversations": [
+            {
+                "timestamp": "2025-06-05 00:16:11",
+                "question": "如何计算4✖95",
+                "answer": "计算4×95可以通过**分配律**拆解成更简单的步骤。以下是详细解答：\n\n---\n\n### 方法一：拆数法（推荐）\n1. **将95拆成容易计算的数**：  \n   \\( 95 = 100 - 5 \\)  \n   这样乘法可以变成：  \n   \\( 4 \\times 95 = 4 \\times (100 - 5) \\)\n\n2. **用分配律分开计算**：  \n   \\( 4 \\times 100 = 400 \\)  \n   \\( 4 \\times 5 = 20 \\)  \n   然后相减：  \n   \\( 400 - 20 = 380 \\)\n\n**答案**：\\( 4 \\times 95 = 380 \\)\n\n---\n\n### 方法二：竖式计算\n如果习惯传统竖式，可以这样：\n```\n   95\n × 4\n ----\n  380  （4×5=20，写0进2；4×9=36，加进的2得38）\n```\n\n---\n\n### 小练习\n试试用拆数法计算：  \n**3×98 = ?**  \n（提示：98 = 100 - 2）\n\n---\n\n通过拆分复杂的数，计算会变得更简单哦！",
+                "problem_type": "加法运算",
+                "difficulty": "中等"
+            }
+        ]
     }
 }

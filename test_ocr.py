@@ -1,13 +1,13 @@
 from OCR import OCRGrader
 import os
-from PyQt5.QtWidgets import QApplication
+from PyQt6.QtWidgets import QApplication  # 修改为PyQt6
 import sys
 
 def test_ocr_grader():
     # 初始化OCR批改器
     app = QApplication(sys.argv)  # 创建QApplication实例
     grader = OCRGrader()
-      # 设置测试图片路径
+    # 设置测试图片路径
     test_image_path = "test_example.jpg"  # 使用新创建的测试图片
     
     # 确认图片文件存在
