@@ -195,31 +195,8 @@ class CalculateGame(QMainWindow, Ui_MainWindow):
         """结束计时挑战"""
         # 停止计时器
         self.timer.stop()
-        
-        # 获取结果
-        results = self.timed_mode.get_results()
-        
-        # 显示结果
-        result_text = (
-            f"挑战结束!\n\n"
-            f"总题数: {results['total_questions']}\n"
-            f"已答题: {results['attempted']}\n"
-            f"正确数: {results['correct']}\n"
-            f"正确率: {results['accuracy']:.1f}%\n"
-            f"用时: {results['time_taken']:.1f}秒"
-        )
-        QMessageBox.information(self, "挑战结果", result_text)
-        
-        # 重置界面
-        self.startTimedBtn.setEnabled(True)
-        self.submitTimedBtn.setEnabled(False)
-        self.timedQuestionLabel.setText("点击\"开始\"按钮开始挑战")
-        self.timedAnswerInput.clear()
-        self.timedResultLabel.setText("")
-        self.timedTimeLabel.setText("剩余时间: --秒")
-        self.progressLabel.setText("题目: --/-- 正确: --")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = CalculateGame()
     window.show()
