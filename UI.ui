@@ -6,187 +6,95 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>341</width>
-    <height>511</height>
+    <width>300</width>
+    <height>200</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>用户登录</string>
   </property>
-  <widget class="QPushButton" name="start">
+
+  <widget class="QLabel" name="username_label">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>430</y>
-     <width>101</width>
-     <height>41</height>
+     <x>30</x>
+     <y>40</y>
+     <width>60</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>开始</string>
+    <string>用户名：</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="clear">
+
+  <widget class="QLineEdit" name="username">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>430</y>
-     <width>101</width>
-     <height>41</height>
+     <x>100</x>
+     <y>40</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="password_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>60</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>清空</string>
+    <string>密码：</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="submit">
+
+  <widget class="QLineEdit" name="password">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>430</y>
-     <width>101</width>
-     <height>41</height>
+     <x>100</x>
+     <y>80</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="login_btn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>130</y>
+     <width>75</width>
+     <height>30</height>
     </rect>
    </property>
    <property name="text">
-    <string>提交</string>
+    <string>登录</string>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox1">
+
+  <widget class="QPushButton" name="register_btn">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>181</width>
-     <height>321</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>问题</string>
-   </property>
-   <widget class="QTextBrowser" name="Question">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>20</y>
-      <width>161</width>
-      <height>291</height>
-     </rect>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QGroupBox" name="groupBox2">
-   <property name="geometry">
-    <rect>
-     <x>200</x>
-     <y>10</y>
-     <width>131</width>
-     <height>321</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>答案</string>
-   </property>
-   <widget class="QTextEdit" name="Answer">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>20</y>
-      <width>111</width>
-      <height>291</height>
-     </rect>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QPushButton" name="myname">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>480</y>
-     <width>321</width>
-     <height>23</height>
+     <x>170</x>
+     <y>130</y>
+     <width>75</width>
+     <height>30</height>
     </rect>
    </property>
    <property name="text">
-    <string>作者:Handy_Wote</string>
-   </property>
-  </widget>
-  <widget class="QTextBrowser" name="Timer">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>340</y>
-     <width>301</width>
-     <height>81</height>
-    </rect>
+    <string>注册</string>
    </property>
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>myname</sender>
-   <signal>clicked()</signal>
-   <receiver>Dialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>170</x>
-     <y>491</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>170</x>
-     <y>255</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>clear</sender>
-   <signal>clicked()</signal>
-   <receiver>Dialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>170</x>
-     <y>450</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>170</x>
-     <y>255</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>start</sender>
-   <signal>clicked()</signal>
-   <receiver>Dialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>60</x>
-     <y>450</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>170</x>
-     <y>255</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>submit</sender>
-   <signal>clicked()</signal>
-   <receiver>Dialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>280</x>
-     <y>450</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>170</x>
-     <y>255</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
