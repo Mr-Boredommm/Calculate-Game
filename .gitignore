@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 user_data/
 
+user_data.json
+deepseek_api_key.txt
+
 # Distribution / packaging
 dist/
 build/
