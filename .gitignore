@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+user_data/
 
 # Distribution / packaging
 dist/
@@ -28,3 +29,7 @@ Desktop.ini
 # Build output
 *.spec
 *.exe
+
+# Logs
+*.log
+*.json
