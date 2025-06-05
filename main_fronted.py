@@ -652,8 +652,10 @@ class MathPracticeSystem(MainApplication):
         # 检查答案
         correct_count = 0
         result_text = "批改结果：\n\n"
+        
+        question_count = self.timed_practice_window.question_count_spinbox.value()
 
-        for i in range(10):
+        for i in range(question_count):
             if i < len(user_answers):
                 try:
                     user_answer = int(user_answers[i].strip())
