@@ -339,6 +339,33 @@
                 "accuracy": 100.0,
                 "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
                 "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-05 08:47:13",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-05 08:49:04",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
+            },
+            {
+                "timestamp": "2025-06-05 08:49:43",
+                "image_path": "test_example.jpg",
+                "total_problems": 5,
+                "correct_answers": 5,
+                "accuracy": 100.0,
+                "detected_problems": "9 + 3 = ?\n10 - 4 = ?\n7 * 9 = ?\n6 / 3 = ?\n20 + 15 = ?",
+                "grading_results": "第1题: ✓ 正确！\n第2题: ✓ 正确！\n第3题: ✓ 正确！\n第4题: ✓ 正确！\n第5题: 未作答，正确答案是 35"
             }
         ],
         "ai_conversations": [
