@@ -35,4 +35,7 @@ Desktop.ini
 
 # Logs
 *.log
-*.json
+*.json 
+
+/test_img
+preprocessed_image.jpg
