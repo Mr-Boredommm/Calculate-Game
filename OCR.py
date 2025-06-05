@@ -148,7 +148,7 @@ class OCRGrader:
             
             # 保存预处理后的图片以便调试
             try:
-                debug_path = "preprocessed_image.jpg"
+                debug_path = "test_img/preprocessed_image.jpg"
                 cv2.imwrite(debug_path, binary)
                 print(f"已保存预处理图片到: {debug_path}")
             except Exception as e:
